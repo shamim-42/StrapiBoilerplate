@@ -17,4 +17,5 @@ DATABASE_SSL=false
 1. Clone the project in your local directory
 2. Create an `.env` file in the root directory and write the variables as mentioned above
 3. Create a database in your database server with the same name you wrote in .env
-3. Run `sudo npm run develop` (for development purpose) or `sudo npm run start` for production
+4. Run `sudo npm run develop` (for development purpose) or `sudo npm run start` for production
+5. To deploy in server use `sudo pm2 start npm --name "GIVE_A_NAME_YOU_LIKE" -- run start` (keep in mind `pm2` must have to be installed in the server)
